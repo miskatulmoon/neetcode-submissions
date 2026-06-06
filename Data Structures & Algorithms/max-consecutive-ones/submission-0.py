@@ -1,5 +1,5 @@
 """
-brute force solution:
+brute force solution o(n^2):
 for each position in the array, count how many consecutive ones start from that pos.
 then scan forward until we hit a 0 or the end of the array
 then track the max count seen.
